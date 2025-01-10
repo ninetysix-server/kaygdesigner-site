@@ -1,0 +1,23 @@
+.green-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 5px; /* This positions the dot to the left of "Online" */
+  animation: dot-blink 1s infinite;
+}
+
+@keyframes dot-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.verified-badge {
+  position: absolute;
+  top: -7px; /* Adjust positioning as needed */
+  right: -20px;
+  object-fit: cover; /* Ensure the badge maintains its aspect ratio */
+}
