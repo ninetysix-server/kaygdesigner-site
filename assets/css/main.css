@@ -1285,3 +1285,43 @@ input:valid, textarea:valid {
   margin-top: 0.25rem; /* Spacing above the error message */
   display: none; /* Hidden by default */
 }
+
+
+/* Base styles for the description */
+.description {
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.6; /* Improve readability with proper line spacing */
+  max-width: 320px; /* Limit the width for better readability */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet and desktop styles */
+@media screen and (min-width: 768px) {
+  .description {
+    max-width: 800px; /* Wider width for tablets and desktops */
+  }
+}
+
+/* Larger desktop styles */
+@media screen and (min-width: 1024px) {
+  .description {
+    max-width: 1000px; /* Even wider for larger screens */
+  }
+}
+
+/* Tablet and desktop styles */
+@media screen and (min-width: 768px) {
+  .description {
+    max-width: 600px; /* Wider width for tablets and desktops */
+  }
+}
+
+/* Larger desktop styles */
+@media screen and (min-width: 1024px) {
+  .description {
+    max-width: 700px; /* Even wider for larger screens */
+  }
+}
